@@ -76,21 +76,4 @@ Este arquivo serve como mapa rápido para a defesa da solução implementada no 
 - `requirements.txt`
 - `README.md`
 
-## Checklist antes da banca
 
-- [ ] três CSVs inseridos na Landing
-- [ ] `docker compose ... up -d --build` executa sem erro
-- [ ] Airflow abre em `localhost:8080`
-- [ ] DAG executa até `06_score_sample`
-- [ ] `Dados/raw_data.csv` existe
-- [ ] `Dados/clean_data.csv` existe
-- [ ] `Dados/abt.csv` existe
-- [ ] `DataPipeline/abt_artifacts.pkl` existe
-- [ ] `Model/model.pkl` existe
-- [ ] `Model/metrics.json` existe
-- [ ] Streamlit abre em `localhost:8501`
-- [ ] tela mostra modelo, AUC, KS e Recall
-- [ ] simulação de cliente retorna PD e decisão
-- [ ] saber explicar de onde o Streamlit lê `abt.csv`, `metrics.json`, `abt_artifacts.pkl` e `model.pkl`
-- [ ] explicabilidade possui ao menos uma saída disponível
-- [ ] saber explicar as automações propostas e o papel do agente de IA
