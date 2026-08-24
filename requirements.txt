@@ -1,0 +1,13 @@
+# Manifesto de dependencias do projeto para a entrega academica.
+# A execucao oficial NAO exige pip/venv no host: use Docker Compose conforme README.md.
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+scipy==1.13.1
+boto3==1.34.144
+botocore==1.34.144
+joblib==1.4.2
+matplotlib==3.9.1
+shap==0.46.0
+streamlit==1.36.0
+plotly==5.22.0
